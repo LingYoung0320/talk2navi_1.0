@@ -231,7 +231,7 @@ def shortest_path_calculation(Cu: str, De: str) -> str:
 
 
     grid = GridGraph(15, 15)
-    grid.from_config_file(r'D:\9py\CallingGPT-main\plugins\grids\HCH2.txt')
+    grid.from_config_file(r'D:\9py\CallingGPT\plugins\grids\HCH2.txt')
 
     start_store = Cu
     start_road = grid.get_nearest_store(start_store, node_type='ROAD')
